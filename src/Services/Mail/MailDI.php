@@ -33,7 +33,7 @@ class MailDI extends \Symfony\Component\Mime\RawMessage
         $this->cache->getItem('cache_key');
 
         $email = (new TemplatedEmail())
-            ->from('noreply@softwebo.pl')
+            ->from('noreply@mvlinowskv.pl')
             ->to(self::ADDRESS_TO)
             ->subject(self::SUBJECT)
             ->htmlTemplate(self::TEMPLATE)
